@@ -27,11 +27,17 @@ export default {
         name: "status",
         title: "Status",
         type: "string",
-      },
-      {
-        name: "comis",
-        title: "Comissão",
-        type: "number",
-      },
+      },{
+        name: 'vendedor',
+        type: 'object',
+        fields: [
+          {
+            title: 'Vendedor',
+            name: 'vendedor',
+            type: 'reference',
+            to: [{type: 'vendedor'}]
+          }
+        ]
+      }
     ],
   };
