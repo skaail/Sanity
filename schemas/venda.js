@@ -24,6 +24,11 @@ export default {
         type: "datetime",
       },
       {
+        name: "comi",
+        title: "Comi",
+        type: "number",
+      },
+      {
         name: "status",
         title: "Status",
         type: "string",
