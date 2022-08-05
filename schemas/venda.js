@@ -36,7 +36,7 @@ export default {
         {        name: "vendedor",
         title: "Vendedor",
         type: "string",
-      },}
+      }
         ]
       }
     ],
