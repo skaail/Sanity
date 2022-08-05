@@ -32,16 +32,11 @@ export default {
         name: "status",
         title: "Status",
         type: "string",
-      },{
-        name: 'vendedor',
-        type: 'object',
-        fields: [
-          {
-            title: 'Vendedor',
-            name: 'vendedor',
-            type: 'reference',
-            to: [{type: 'vendedor'}]
-          }
+      },
+        {        name: "vendedor",
+        title: "Vendedor",
+        type: "string",
+      },}
         ]
       }
     ],
